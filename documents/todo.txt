@@ -1,6 +1,8 @@
 Long Term Goals: 
 - Greatly improve editing ease of use
 - Improve Unity support
+- Improve text/dialog displaying and ease of use for story telling
+- MP Fun
 
 Todo:
 - Menu is referring jpgs instead of pngs
@@ -14,6 +16,20 @@ Todo:
 - Editing "Lines"
 - Heightmap required updates
 - Default player model?
+- Setup a nice default editing texture
+- Add Cube editing tools from the community site
+- Greatly reduce folders in /packages  condense
+
+Maybe:
+"Tag" and "Hide and Go Seek" mode
+
+Import and credit - 
+Editing tools - http://quadropolis.us/node/3584
+Adjust Textures in game? http://quadropolis.us/node/8
+Easy to set up teles and jumppads? http://quadropolis.us/node/3121
+Freeze Tag and Grappling Hook - http://quadropolis.us/node/1582
+Prefab one - http://quadropolis.us/node/3798
+Particle menus - http://quadropolis.us/node/1005
 
 Changelog:
 10-4-2014 Initial Cube 2 Revision 5028 uploaded.  Removed Cube 2 content and added some from Hirato and Chaze (Menus)
