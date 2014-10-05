@@ -1,0 +1,19 @@
+Long Term Goals: 
+- Greatly improve editing ease of use
+- Improve Unity support
+
+Todo:
+- Menu is referring jpgs instead of pngs
+- Move hirato and aard texture folders into /textures and update references
+- Remove sound and music references that have been removed
+- Sandbox.exe instead of Sauerbraten.exe
+- Improve font
+- Improve menu background
+- Newmap selection. Borrowed from Sandbox?
+- + & - Floatspeed changes from SB
+- Editing "Lines"
+- Heightmap required updates
+- Default player model?
+
+Changelog:
+10-4-2014 Initial Cube 2 Revision 5028 uploaded.  Removed Cube 2 content and added some from Hirato and Chaze (Menus)
