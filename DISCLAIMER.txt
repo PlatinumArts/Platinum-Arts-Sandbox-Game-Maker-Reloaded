@@ -1,0 +1,13 @@
+Sandbox is based on a software engine that included weapons and monsters.  A lot of effort has gone into removing the ability for weapons and monsters to be used in the FPS (main) Game Mode, though there is the unlikely chance that something was missed.  In addition, references to monsters and weapons may appear in the source code (the contents of the folder named /src).
+
+In addition the sidescroller mode features mild "mario" like action.  Teachers/parents might want to try the mode out first and make sure it is appropriate for their children.  Sidescroller.bat can simply be deleted if it is deemed not suitable.
+
+The RPG and Rose Storm Game Modes do feature and allow the ability for violent spell attacks and melee attacks.  If you would like to remove access from them delete CLICK_ME_TO_START - RPG MODE and RoseStorm in the top level folder.
+
+When you use this software you agree to keep that in mind and will not hold Platinum Arts liable for any related incidents.  For any questions and comments please e-mail PlatinumArts@gmail.com
+
+Copyright (C) 2007 Platinum Arts LLC
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.

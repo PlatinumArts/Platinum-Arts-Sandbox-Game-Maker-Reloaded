@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4">
+    <filter
+       id="filter3503">
+      <feGaussianBlur
+         id="feGaussianBlur3505"
+         stdDeviation="3.6826229"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter3507">
+      <feGaussianBlur
+         id="feGaussianBlur3509"
+         stdDeviation="2.4550819"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter3515">
+      <feGaussianBlur
+         id="feGaussianBlur3517"
+         stdDeviation="1.227541"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <path
+       d="M 125.37705,64 A 61.377048,61.377048 0 1 1 2.6229515,64 61.377048,61.377048 0 1 1 125.37705,64 z"
+       transform="matrix(0.84027219,0,0,0.84027219,10.22258,10.22258)"
+       id="path2694"
+       style="fill:none;stroke:#d0e0ff;stroke-width:7.14054298;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3503)" />
+    <path
+       d="M 125.37705,64 A 61.377048,61.377048 0 1 1 2.6229515,64 61.377048,61.377048 0 1 1 125.37705,64 z"
+       transform="matrix(0.53516284,0,0,0.53516284,29.749579,29.749578)"
+       id="path2694-0"
+       style="fill:none;stroke:#d0e0ff;stroke-width:7.47436047;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3507)" />
+    <path
+       d="M 125.37705,64 A 61.377048,61.377048 0 1 1 2.6229515,64 61.377048,61.377048 0 1 1 125.37705,64 z"
+       transform="matrix(0.20987779,0,0,0.20987779,50.567822,50.567821)"
+       id="path2694-04"
+       style="fill:none;stroke:#d0e0ff;stroke-width:14.29403305;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3515)" />
+  </g>
+</svg>

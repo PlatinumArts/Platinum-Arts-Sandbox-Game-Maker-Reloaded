@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="64"
+   height="64"
+   id="svg2"
+   inkscape:version="0.46+devel r21713"
+   sodipodi:docname="add.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/hirato/PlatinumArtsSandboxbeta/svn/trunk/data/hud/2.3/icons/add.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1851"
+     inkscape:window-height="1279"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="11.313708"
+     inkscape:cx="43.734623"
+     inkscape:cy="33.412058"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3667">
+      <stop
+         style="stop-color:#c0ffc0;stop-opacity:1;"
+         offset="0"
+         id="stop3669" />
+      <stop
+         style="stop-color:#a0e0a0;stop-opacity:1;"
+         offset="1"
+         id="stop3671" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3657">
+      <stop
+         style="stop-color:#a0a0e0;stop-opacity:1;"
+         offset="0"
+         id="stop3659" />
+      <stop
+         id="stop3665"
+         offset="1"
+         style="stop-color:#6060a0;stop-opacity:1;" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 32 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="64 : 32 : 1"
+       inkscape:persp3d-origin="32 : 21.333333 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3641"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3657"
+       id="radialGradient3663"
+       cx="41.899494"
+       cy="22.012117"
+       fx="41.899494"
+       fy="22.012117"
+       r="32"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1963569,-1.2698468e-8,1.2698468e-8,1.1963569,-8.2272523,-4.3222304)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3667"
+       id="radialGradient3673"
+       cx="41.899494"
+       cy="22.012117"
+       fx="41.899494"
+       fy="22.012117"
+       r="32"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.198877,0,0,1.198877,-8.3328442,-4.3777031)" />
+  </defs>
+  <path
+     style="fill:url(#radialGradient3673);fill-opacity:1;stroke:url(#radialGradient3663);stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="M 24 2 L 24 24 L 2 24 L 2 40 L 24 40 L 24 62 L 40 62 L 40 40 L 62 40 L 62 24 L 40 24 L 40 2 L 24 2 z "
+     id="rect3631" />
+  <g
+     id="layer1">
+    <path
+       d="m 7,6.25 c 16,-4.5 59.75,-8 54.25,6.5 -5.951036,15.689094 7.071982,31.06516 -4.75,41.5 C 45.54203,63.922208 3.8528575,65.721425 6.25,51 8.8129802,35.260126 -4.1590996,14.945843 7,6.25 z"
+       id="path3159"
+       style="fill:none;stroke:#ffe000;stroke-width:4.99999905;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:9.9999979, 9.9999979;stroke-dashoffset:0" />
+  </g>
+</svg>
