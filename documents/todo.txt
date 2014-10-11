@@ -19,6 +19,8 @@ Todo:
 - Setup a nice default editing texture
 - Add Cube editing tools from the community site
 - Greatly reduce folders in /packages  condense
+- Add "pgup" and "pgdown" options for editing
+- Readd themes
 
 Maybe:
 "Tag" and "Hide and Go Seek" mode
