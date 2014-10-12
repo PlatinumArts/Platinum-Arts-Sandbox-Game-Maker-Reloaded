@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="sauerbraten" />
+		<Option title="sandbox" />
 		<Option default_target="client64" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="client64">
-				<Option output="..\..\bin64\sauerbraten.exe" prefix_auto="0" extension_auto="0" />
+				<Option output="..\..\bin64\sandbox.exe" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="..\..\" />
 				<Option object_output=".objs\client64" />
 				<Option type="0" />
@@ -52,7 +52,7 @@
 				</Environment>
 			</Target>
 			<Target title="client32">
-				<Option output="..\..\bin\sauerbraten.exe" prefix_auto="0" extension_auto="0" />
+				<Option output="..\..\bin\sandbox.exe" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="..\..\" />
 				<Option object_output=".objs\client32" />
 				<Option type="0" />

@@ -299,7 +299,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="sauerbraten.rc" />
+    <ResourceCompile Include="sandbox.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="shared">
