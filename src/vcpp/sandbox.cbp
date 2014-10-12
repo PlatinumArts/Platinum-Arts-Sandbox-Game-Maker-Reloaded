@@ -44,7 +44,7 @@
 					<Add library="enet" />
 					<Add library="ws2_32" />
 					<Add library="winmm" />
-					<Add directory="..\..\bin64" />
+					<Add directory="..\..\binaries\bin64" />
 					<Add directory="..\lib64" />
 				</Linker>
 				<Environment>
@@ -89,7 +89,7 @@
 					<Add library="enet" />
 					<Add library="ws2_32" />
 					<Add library="winmm" />
-					<Add directory="..\..\bin" />
+					<Add directory="..\..\binaries\bin" />
 					<Add directory="..\lib" />
 				</Linker>
 				<Environment>

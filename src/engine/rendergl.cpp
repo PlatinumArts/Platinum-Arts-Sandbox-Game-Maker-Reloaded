@@ -2301,7 +2301,7 @@ void drawcrosshair(int w, int h)
     if(windowhit)
     {
         static Texture *cursor = NULL;
-        if(!cursor) cursor = textureload("data/theme/2.1/guicursor.png", 3, true); //Mikeedit first step to readd themes
+        if(!cursor) cursor = textureload("data/theme/green/guicursor.png", 3, true); //Mikeedit first step to readd themes
         crosshair = cursor;
         chsize = cursorsize*w/900.0f;
         g3d_cursorpos(cx, cy);
