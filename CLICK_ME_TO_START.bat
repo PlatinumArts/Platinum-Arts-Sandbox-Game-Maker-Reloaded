@@ -1,12 +1,12 @@
 @ECHO OFF
 
-set SAUER_BIN=bin
+set SANDBOX_BIN=bin
 
 IF /I "%PROCESSOR_ARCHITECTURE%" == "amd64" (
-    set SAUER_BIN=bin64
+    set SANDBOX_BIN=bin64
 )
 IF /I "%PROCESSOR_ARCHITEW6432%" == "amd64" (
-    set SAUER_BIN=bin64
+    set SANDBOX_BIN=bin64
 )
 
-start %SAUER_BIN%\sauerbraten.exe "-quser_data" -glog.txt %*
+start %SANDBOX_BIN%\sandbox.exe "-quser_data" -glog.txt %*

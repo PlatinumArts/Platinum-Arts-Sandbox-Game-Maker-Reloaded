@@ -1187,8 +1187,8 @@ namespace server
         else
         {
             lilswap(&hdr.version, 2);
-            if(hdr.version!=DEMO_VERSION) formatstring(msg)("demo \"%s\" requires an %s version of Cube 2: Sauerbraten", file, hdr.version<DEMO_VERSION ? "older" : "newer");
-            else if(hdr.protocol!=PROTOCOL_VERSION) formatstring(msg)("demo \"%s\" requires an %s version of Cube 2: Sauerbraten", file, hdr.protocol<PROTOCOL_VERSION ? "older" : "newer");
+            if(hdr.version!=DEMO_VERSION) formatstring(msg)("demo \"%s\" requires an %s version of Platinum Arts Sandbox", file, hdr.version<DEMO_VERSION ? "older" : "newer");
+            else if(hdr.protocol!=PROTOCOL_VERSION) formatstring(msg)("demo \"%s\" requires an %s version of Platinum Arts Sandbox", file, hdr.protocol<PROTOCOL_VERSION ? "older" : "newer");
         }
         if(msg[0])
         {
@@ -3585,11 +3585,11 @@ namespace server
         }
     }
 
-    int laninfoport() { return SAUERBRATEN_LANINFO_PORT; }
-    int serverinfoport(int servport) { return servport < 0 ? SAUERBRATEN_SERVINFO_PORT : servport+1; }
-    int serverport(int infoport) { return infoport < 0 ? SAUERBRATEN_SERVER_PORT : infoport-1; }
-    const char *defaultmaster() { return "master.sauerbraten.org"; }
-    int masterport() { return SAUERBRATEN_MASTER_PORT; }
+    int laninfoport() { return SANDBOX_LANINFO_PORT; }
+    int serverinfoport(int servport) { return servport < 0 ? SANDBOX_SERVINFO_PORT : servport+1; }
+    int serverport(int infoport) { return infoport < 0 ? SANDBOX_SERVER_PORT : infoport-1; }
+    const char *defaultmaster() { return "master.sandboxgamemaker.com"; } //Mikeedit master server setup
+    int masterport() { return SANDBOX_MASTER_PORT; }
     int numchannels() { return 3; }
 
     #include "extinfo.h"

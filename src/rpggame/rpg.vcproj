@@ -389,7 +389,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\vcpp\sauerbraten.rc"
+				RelativePath="..\vcpp\sandbox.rc"
 				>
 			</File>
 			<Filter
