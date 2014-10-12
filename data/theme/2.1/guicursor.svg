@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="64"
+   height="64"
+   id="svg4366">
+  <defs
+     id="defs4368">
+    <filter
+       height="1.55756"
+       y="-0.27878001"
+       width="1.8455504"
+       x="-0.42277521"
+       id="filter3230">
+      <feGaussianBlur
+         id="feGaussianBlur3232"
+         stdDeviation="6.1115804"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <path
+     d="m 4.527965,4.3178889 2.75,49.1250001 L 17.424038,41.93035 27.180608,56.932111 35.841506,50.81192 27.269914,37.447537 39.222035,33.471015 4.527965,4.3178889 z"
+     transform="matrix(1.1520501,0,0,1.1520501,-1.4510969,-4.6565356)"
+     id="path5011"
+     style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3230)" />
+  <path
+     d="M 6.25,4.2499999 9,53.375 20.021073,42.862461 27.477542,56.216449 37.82265,49.05982 28.991949,37.379648 40.94407,33.403126 6.25,4.2499999 z"
+     id="path5009"
+     style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+</svg>

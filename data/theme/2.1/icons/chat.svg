@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="64"
+   height="64"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <path
+     d="m 7,6.25 c 16,-4.5 59.75,-8 54.25,6.5 -5.951036,15.689094 7.071982,31.06516 -4.75,41.5 C 45.54203,63.922208 3.8528575,65.721425 6.25,51 8.8129802,35.260126 -4.1590996,14.945843 7,6.25 z"
+     id="path3159"
+     style="fill:none;stroke:#ffe000;stroke-width:4.99999905;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:9.9999979, 9.9999979;stroke-dashoffset:0" />
+  <path
+     d="m 53.96875,37.015625 c 1.567046,-3.325749 2.375,-5.763653 2.375,-9.015625 0,-8.188 -10.287502,-14.84375 -22.9375,-14.84375 C 20.75625,13.15625 10.5,19.812 10.5,28 c 0,8.188 10.256249,14.843748 22.90625,14.84375 2.684885,0 5.261464,-0.325076 7.65625,-0.875 -3.174862,5.561721 -26.436036,4.427972 -22.552083,5.197917 9.067271,1.797471 29.207644,3.114822 35.458333,-10.151042 z"
+     id="path3672"
+     style="fill:#e0e0e0;fill-opacity:1;fill-rule:nonzero;stroke:#a0a0a0;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+  <text
+     x="13.666664"
+     y="36"
+     id="text3679"
+     xml:space="preserve"
+     style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#00a0ff;fill-opacity:1;stroke:none;font-family:Map Of You;-inkscape-font-specification:Map Of You"><tspan
+       x="13.666664"
+       y="36"
+       id="tspan3681">ABC</tspan></text>
+</svg>
