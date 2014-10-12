@@ -9,4 +9,4 @@ IF /I "%PROCESSOR_ARCHITEW6432%" == "amd64" (
     set SANDBOX_BIN=bin64
 )
 
-start %SANDBOX_BIN%\sandbox.exe "-quser_data" -glog.txt %*
+start binaries\%SANDBOX_BIN%\sandbox.exe "-quser_data" -glog.txt %*
