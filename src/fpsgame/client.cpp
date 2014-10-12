@@ -258,7 +258,7 @@ namespace game
         if(player1->state==CS_DEAD) deathstate(player1, true);
         else if(player1->state==CS_EDITING && player1->editstate==CS_DEAD) showscores(false);
         disablezoom();
-        player1->suicided = player1->respawned = -2;
+        player1->felldown = player1->respawned = -2; ////Mikeedit made "fall down" message more friendly
     }
 
     const char *getclientname(int cn)

@@ -417,9 +417,9 @@ namespace game
             aname = colorname(actor, NULL, "", "", "you");
         }
         if(actor->type==ENT_AI)
-            conoutf(contype, "\f2%s got killed by %s!", dname, aname);
+            conoutf(contype, "\f2%s got pushed down by %s!", dname, aname);
         else if(d==actor || actor->type==ENT_INANIMATE)
-            conoutf(contype, "\f2%s suicided%s", dname, d==player1 ? "!" : "");
+            conoutf(contype, "\f2%s have fallen and can't get up!%s", dname, d==player1 ? "!" : "");
         else if(isteam(d->team, actor->team))
         {
             contype |= CON_TEAMKILL;
@@ -555,7 +555,7 @@ namespace game
             d->totalshots = 0;
             d->maxhealth = 100;
             d->lifesequence = -1;
-            d->respawned = d->suicided = -2;
+            d->respawned = d->felldown = -2; //Mikeedit made "fall down" message more friendly
         }
 
         setclientmode();
@@ -713,7 +713,7 @@ namespace game
             else 
             {
                 int seq = (pl->lifesequence<<16)|((lastmillis/1000)&0xFFFF);
-                if(pl->suicided!=seq) { addmsg(N_SUICIDE, "rc", pl); pl->suicided = seq; }
+                if(pl->felldown!=seq) { addmsg(N_SUICIDE, "rc", pl); pl->felldown = seq; }
             }
         }
         else if(d->type==ENT_AI) suicidemonster((monster *)d);

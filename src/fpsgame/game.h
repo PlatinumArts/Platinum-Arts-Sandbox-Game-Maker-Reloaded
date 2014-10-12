@@ -534,7 +534,7 @@ struct fpsent : dynent, fpsstate
     int weight;                         // affects the effectiveness of hitpush
     int clientnum, privilege, lastupdate, plag, ping;
     int lifesequence;                   // sequence id for each respawn, used in damage test
-    int respawned, suicided;
+    int respawned, felldown; ////Mikeedit made "fall down" message more friendly
     int lastpain;
     int lastaction, lastattackgun;
     bool attacking;
@@ -554,7 +554,7 @@ struct fpsent : dynent, fpsstate
 
     vec muzzle;
 
-    fpsent() : weight(100), clientnum(-1), privilege(PRIV_NONE), lastupdate(0), plag(0), ping(0), lifesequence(0), respawned(-1), suicided(-1), lastpain(0), attacksound(-1), attackchan(-1), idlesound(-1), idlechan(-1), frags(0), flags(0), deaths(0), totaldamage(0), totalshots(0), edit(NULL), smoothmillis(-1), playermodel(-1), ai(NULL), ownernum(-1), muzzle(-1, -1, -1)
+    fpsent() : weight(100), clientnum(-1), privilege(PRIV_NONE), lastupdate(0), plag(0), ping(0), lifesequence(0), respawned(-1), felldown(-1), lastpain(0), attacksound(-1), attackchan(-1), idlesound(-1), idlechan(-1), frags(0), flags(0), deaths(0), totaldamage(0), totalshots(0), edit(NULL), smoothmillis(-1), playermodel(-1), ai(NULL), ownernum(-1), muzzle(-1, -1, -1)  //Mikeedit made "fall down" message more friendly
     {
         name[0] = team[0] = info[0] = 0;
         respawn();
@@ -590,7 +590,7 @@ struct fpsent : dynent, fpsstate
     {
         dynent::reset();
         fpsstate::respawn();
-        respawned = suicided = -1;
+        respawned = felldown = -1; //Mikeedit made "fall down" message more friendly
         lastaction = 0;
         lastattackgun = gunselect;
         attacking = false;
