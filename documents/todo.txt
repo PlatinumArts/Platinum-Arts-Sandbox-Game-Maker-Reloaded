@@ -12,7 +12,6 @@ Todo:
 - Improve font
 - Improve menu background
 - Newmap selection. Borrowed from Sandbox?
-- + & - Floatspeed changes from SB
 - Editing "Lines"
 - Heightmap required updates
 - Default player model?
@@ -20,7 +19,7 @@ Todo:
 - Add Cube editing tools from the community site
 - Greatly reduce folders in /packages  condense
 - Add "pgup" and "pgdown" options for editing
-- Readd themes
+- Readd themes - (SOMEWHAT DONE)
 
 Maybe:
 "Tag" and "Hide and Go Seek" mode
@@ -33,5 +32,9 @@ Freeze Tag and Grappling Hook - http://quadropolis.us/node/1582
 Prefab one - http://quadropolis.us/node/3798
 Particle menus - http://quadropolis.us/node/1005
 
+DONE:
+- + & - Floatspeed changes from SB
+
 Changelog:
+10-11-2014 Changed .bat to save user data to "user_data" within the folder structure, removed weapon related binds, basic menu themes added, Floatspeed in edit mode, hudgun 0, icons removed from /packages they are in /data/theme now
 10-4-2014 Initial Cube 2 Revision 5028 uploaded.  Removed Cube 2 content and added some from Hirato and Chaze (Menus)
