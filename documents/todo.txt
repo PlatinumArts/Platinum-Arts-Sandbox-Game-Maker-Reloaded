@@ -5,24 +5,23 @@ Long Term Goals:
 - MP Fun
 
 Todo:
-- Menu is referring jpgs instead of pngs
-- Move hirato and aard texture folders into /textures and update references
-- Remove sound and music references that have been removed
-- Sandbox.exe instead of Sauerbraten.exe
+FIX BUG - Deselecting after using right mouse disables ability to use right mouse until left mouse is dragged. Seems to be a Cube 2 bug too
 - Improve font
 - Improve menu background
-- Newmap selection. Borrowed from Sandbox?
 - Editing "Lines"
-- Heightmap required updates
 - Default player model?
-- Setup a nice default editing texture
 - Add Cube editing tools from the community site
 - Greatly reduce folders in /packages  condense
-- Add "pgup" and "pgdown" options for editing
 - Readd themes - (SOMEWHAT DONE)
+- "Make sure you save" exit message
 
 Maybe:
 "Tag" and "Hide and Go Seek" mode
+Soccer
+Fishing
+Keycodes
+NPCs?
+Easy Text/Story creation
 
 Import and credit - 
 Editing tools - http://quadropolis.us/node/3584
@@ -33,8 +32,17 @@ Prefab one - http://quadropolis.us/node/3798
 Particle menus - http://quadropolis.us/node/1005
 
 DONE:
+- Add "pgup" and "pgdown" options for editing
 - + & - Floatspeed changes from SB
+- Menu is referring jpgs instead of pngs
+- Sandbox.exe instead of Sauerbraten.exe
+- Newmap selection. Borrowed from Sandbox?
+- Heightmap required updates
+- Remove sound and music references that have been removed
+- Setup a nice default editing texture
+- Move hirato texture folder into /textures and update references
 
 Changelog:
+10-12-2014 A lot haha
 10-11-2014 Changed .bat to save user data to "user_data" within the folder structure, removed weapon related binds, basic menu themes added, Floatspeed in edit mode, hudgun 0, icons removed from /packages they are in /data/theme now
 10-4-2014 Initial Cube 2 Revision 5028 uploaded.  Removed Cube 2 content and added some from Hirato and Chaze (Menus)
