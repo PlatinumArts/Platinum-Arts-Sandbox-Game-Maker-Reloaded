@@ -419,7 +419,7 @@ namespace game
         if(actor->type==ENT_AI)
             conoutf(contype, "\f2%s got pushed down by %s!", dname, aname);
         else if(d==actor || actor->type==ENT_INANIMATE)
-            conoutf(contype, "\f2%s have fallen and can't get up!%s", dname, d==player1 ? "!" : "");
+            conoutf(contype, "\f2%s have fallen and can't get up!  Press spacebar to respawn%s", dname, d==player1 ? "!" : "");
         else if(isteam(d->team, actor->team))
         {
             contype |= CON_TEAMKILL;

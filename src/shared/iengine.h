@@ -31,7 +31,7 @@ enum // cube empty-space materials
     MAT_CLIP     = 2 << MATF_CLIP_SHIFT,  // collisions always treat cube as solid
     MAT_GAMECLIP = 3 << MATF_CLIP_SHIFT,  // game specific clip material
 
-    MAT_DEATH    = 1 << MATF_FLAG_SHIFT,  // force player suicide
+    MAT_DEATH    = 1 << MATF_FLAG_SHIFT,  // force player respawn
     MAT_ALPHA    = 4 << MATF_FLAG_SHIFT   // alpha blended
 };
 

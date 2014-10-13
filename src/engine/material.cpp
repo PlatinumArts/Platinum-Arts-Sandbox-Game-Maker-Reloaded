@@ -155,7 +155,7 @@ const struct material
     {"clip", MAT_CLIP},
     {"noclip", MAT_NOCLIP},
     {"gameclip", MAT_GAMECLIP},
-    {"death", MAT_DEATH},
+    {"respawn", MAT_DEATH},
     {"alpha", MAT_ALPHA}
 };
 
