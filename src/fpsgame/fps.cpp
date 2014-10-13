@@ -862,7 +862,7 @@ namespace game
         fpsent *d = hudplayer();
         if(d->state!=CS_EDITING)
         {
-            if(d->state!=CS_SPECTATOR) drawhudicons(d);
+            //if(d->state!=CS_SPECTATOR) drawhudicons(d); //Mikeedit Remove Hud Icons
             if(cmode) cmode->drawhud(d, w, h);
         }
 
